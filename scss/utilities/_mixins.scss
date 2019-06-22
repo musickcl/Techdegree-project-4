@@ -1,0 +1,16 @@
+
+// Create mixins for the following: media queries, flexbox settings
+
+// Media Queries
+@mixin mq{
+@media (min-width: $bp) {
+    flex-direction: row;
+  } 
+}
+
+// Flexbox
+
+@mixin flex{
+    display: flex;
+    flex-direction: column;
+}

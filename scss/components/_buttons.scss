@@ -1,0 +1,17 @@
+
+@each $button, $color in $ui-colors {
+.btn--#{$button} {
+    background-color: $color;
+    @extend %btn;
+}
+
+}
+
+@each $theme, $col in $grid-colors {
+    .theme__colors.grid__col#{$theme} {
+        background-color: $col;
+        @extend %theme__colors;
+    }
+}
+
+

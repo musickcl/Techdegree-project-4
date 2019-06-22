@@ -1,0 +1,24 @@
+
+%btn {
+    background-color: $color-primary;
+    padding: 10px;
+    border-radius: .25em;
+    margin: 0 20px 20px;
+    color: $white;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    flex: 1;        
+}
+
+%theme__colors {
+    background-color: $color-primary;
+    padding: 10px;
+    border-radius: .25em;
+    margin: 0 5px 5px;
+    color: black;
+    font-weight: 400;
+    font-size: .8em;
+}
+
+

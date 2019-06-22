@@ -1,0 +1,46 @@
+
+// Create at least one variable for fonts, breakpoints, and colors.
+
+// Font Stacks
+
+$font-stack-primary: 'Roboto', sans-serif;
+
+// Colors
+
+$white:     #fff;
+$viking:    #58e1c1;
+$malibu:    #51ddfc;
+$emerald:   #63cc82;
+$sunglo:    #e4757a;
+$coral:     #fd7856;
+$majesty:   #927bc1;
+
+// Color Usage
+
+$color-primary: $viking;
+$color-secondary: $malibu;
+
+// UI Colors
+
+$ui-colors: (
+    'default' : $malibu,
+    'success' : $emerald,
+    'error'   : $sunglo,
+    'warning' : $coral,
+    'info'    : $majesty,
+);
+
+$grid-colors: (
+"--12":     #80e8d1,
+"--8" :     #fd9f85,
+"--7" :     #ec9fa3,
+"--6" :     #3fabca,
+"--5" :     #88d9a0,
+"--4" :     #7ee6fd,
+"--3" :     #deb2ee
+);
+
+// Breakpoints
+
+$bp: 768px;
+

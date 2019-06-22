@@ -1,0 +1,17 @@
+
+.form {
+    @include flex;
+}
+
+.form__label--hidden {
+    display: none;
+}
+
+.form__input {
+    border-bottom: .4em solid $color-primary;
+    padding: 15px;
+    margin: 0px 32px;
+    margin-bottom: 20px;
+    outline-color: $color-primary;
+    font-weight: 700;
+}

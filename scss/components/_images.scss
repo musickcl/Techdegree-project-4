@@ -1,0 +1,23 @@
+
+.img {
+    
+    &--avatar {
+        align-self: center;
+        margin-bottom: 30px;
+        
+    }
+    &--frame {
+        align-self: center;
+        margin-bottom: 30px;
+    }
+    &--logo {
+        align-self: center;
+        margin-bottom: 30px;
+    }
+}
+
+.img--frame {
+    width: 80%;
+    outline: 1px solid black;
+    outline-offset: 15px;
+}
